@@ -1,0 +1,26 @@
+.hero-image{
+
+}
+
+.hero {
+  background-image: url("../images/hero-june.jpg");
+  background-position: center;
+  object-fit: cover;
+  // position: fixed;
+  height: 700px;
+  padding: 0 50px;
+}
+
+.hero-content {
+  width: 50%;
+  @include translate;
+
+  h4 {
+    padding: 50px 0;
+  }
+}
+
+.second-story{
+  background: $accent;
+  height: 500px;
+}

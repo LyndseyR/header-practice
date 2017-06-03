@@ -1,0 +1,7 @@
+button {
+  @include text-style($weight: 700, $transform: uppercase);
+  height: 50px;
+  background: $accent;
+  border: none;
+  padding: 0 15px;
+}

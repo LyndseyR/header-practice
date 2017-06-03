@@ -1,0 +1,29 @@
+header {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: #fff;
+    margin: 0 10px;
+  }
+}
+
+.hero {
+  nav {
+    padding: 50px 0px 15px 0px;
+    a {
+      padding: 010px;
+    }
+  }
+}
+
+.hero-drop-nav {
+  background: black;
+}
+
+.hero-drop-background {
+  width: 100%;
+  height: 300px;
+  background: black;
+}

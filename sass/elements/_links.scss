@@ -1,0 +1,46 @@
+//Global list styles for links
+ul {
+  li {
+    list-style-type: none;
+    display: inline-block;
+    a {
+      text-decoration: none;
+      padding: 0 10px;
+      font-size: 1.1rem;
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+}
+
+//Header Links
+header {
+ li a {
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: $text;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.hero {
+  a {
+    padding: 15px;
+    position: relative;
+  }
+
+  a::before {
+    content: "";
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    width: 32px;
+    background: #fff;
+  }
+
+  a:hover::before {
+    background: $accent;
+  }
+}

@@ -1,0 +1,13 @@
+@mixin text-style($font: $font-sans-serif, $size: 1rem, $weight: normal, $color: #fff, $transform: normal) {
+  font-family: $font;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  text-transform: $transform;
+}
+
+@mixin translate(){
+  position: relative;
+  top: 50%;
+  transform: translateY(-70%);
+}
